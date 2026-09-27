@@ -1,4 +1,4 @@
-command_id: DA10.10.222611
+command_id: DA10.10.222611|f=2008-
 test_cases:
 - expected_values:
     ELEMENT_AIRGAS_RAT: 29.4

@@ -1,4 +1,4 @@
-command_id: DA10.10.222612
+command_id: DA10.10.222612|f=2008-
 test_cases:
 - expected_values:
     ELEMENT_VTEC_CTRL: 2
