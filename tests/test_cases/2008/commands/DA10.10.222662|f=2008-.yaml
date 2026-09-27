@@ -1,4 +1,4 @@
-command_id: DA10.10.222662
+command_id: DA10.10.222662|f=2008-
 test_cases:
 - expected_values:
     ELEMENT_KNOCK_CTRL: 0.8549
