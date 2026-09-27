@@ -115,8 +115,8 @@
   ]},
 { "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2610"}, "freq": 1,
   "signals": [
-    {"id": "ELEMENT_GENERATOR_DA11",         "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Generator"},
-    {"id": "ELEMENT_AIR_CONDITIONER_CLUTCH", "path": "Engine", "fmt": {"bix": 262, "len": 1, "max": 1,                           "unit": "offon"   }, "name": "Air conditioner clutch"}
+    {"id": "ELEMENT_GENERATOR_DA11", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Generator"},
+    {"id": "ELEMENT_AC_CLUTCH_DA11", "path": "Engine", "fmt": {"bix": 262, "len": 1, "max": 1,                           "unit": "offon"   }, "name": "Air conditioner clutch"}
   ]},
 { "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2611"}, "freq": 1,
   "signals": [
