@@ -1,7 +1,7 @@
 command_id: DA10.10.222662
 test_cases:
 - expected_values:
-    ELEMENT_KNOCK_CONTROL: 0.8549
+    ELEMENT_KNOCK_CTRL: 0.8549
     ELEMENT_VTC_DUTY: 0
   response: |-
     18DAF11010396226623B0C3F
