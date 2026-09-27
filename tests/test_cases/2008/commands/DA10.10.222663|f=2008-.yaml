@@ -1,4 +1,4 @@
-command_id: DA10.10.222663
+command_id: DA10.10.222663|f=2008-
 test_cases:
 - expected_values:
     ELEMENT_MIS_1: 0
