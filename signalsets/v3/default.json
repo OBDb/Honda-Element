@@ -81,7 +81,8 @@
   ]},
 { "hdr": "DA10", "rax": "10", "cmd": {"22": "2612"}, "freq": 1, "filter": { "from": 2008 }, "dbgfilter": { "from": 2009 },
   "signals": [
-    {"id": "ELEMENT_VTEC_CTRL", "path": "ECU", "fmt": {"bix": 168, "len": 8, "max": 255, "unit": "scalar" }, "name": "Variable valve control"}
+    {"id": "ELEMENT_VTEC_PSW", "path": "Engine", "fmt": {"bix": 174, "len": 1, "max": 1, "unit": "offon" }, "name": "VTEC pressure switch"},
+    {"id": "ELEMENT_VTEC_SOL", "path": "Engine", "fmt": {"bix": 175, "len": 1, "max": 1, "unit": "offon" }, "name": "VTEC solenoid valve"}
   ]},
 { "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2615"}, "freq": 1, "filter": { "from": 2008 },
   "signals": [
@@ -166,7 +167,7 @@
   ]},
 { "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2203"}, "freq": 1, "filter": { "from": 2008 },
   "signals": [
-    {"id": "ELEMENT_EOP", "path": "ECU", "fmt": {"bix": 72, "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Oil pressure"}
+    {"id": "ELEMENT_TRANS_OIL_P2", "path": "Transmission", "fmt": {"bix": 72, "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Transmission oil pressure sensor 2"}
   ]},
 { "hdr": "DA1D", "rax": "1D", "fcm1": true, "dbg": true, "cmd": {"22": "2221"}, "freq": 0.25, "filter": { "from": 2008 },
   "signals": [
